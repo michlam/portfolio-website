@@ -1,0 +1,15 @@
+#root {
+    --rich-black: #071e22;
+    --dark-rich-black: #05181b;
+    --anti-flash-white: #f3f3f4;
+}
+
+section.about {
+    height: 928px;
+    background: var(--dark-rich-black);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

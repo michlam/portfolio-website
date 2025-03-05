@@ -1,6 +1,15 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  --rich-black: #071e22;
+  --dark-rich-black: #05181b;
+  --anti-flash-white: #f3f3f4;
+
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: var(--anti-flash-white);
 }
+
+body {
+  margin: 0px;
+}
+
+
