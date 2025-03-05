@@ -1,3 +1,4 @@
+import GithubIcon from "../assets/Github_Icon.svg";
 import "./Home.css";
 
 export default function Home(props) {
@@ -6,6 +7,9 @@ export default function Home(props) {
             <div className="home-content">
                 <h1>MICHAEL LAM</h1>
                 <h2>Software Developer / Quality Assurance</h2>
+                <div className="socials">
+                    <img src={GithubIcon} alt="Github Icon" />
+                </div>
             </div>
         </section>
     )
