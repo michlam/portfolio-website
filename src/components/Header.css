@@ -25,7 +25,12 @@ header {
 }
 
 
-span.nav-item > h4, p{
+span.nav-item > h4 {
+    display: inline;
+    cursor: pointer;
+}
+
+span.nav-item > p {
     display: inline;
     cursor: pointer;
 }

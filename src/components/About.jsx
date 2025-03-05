@@ -16,7 +16,21 @@ export default function About(props) {
 
             <div className="about-bottom">
                 <div className="about-bottom-item">
-                    Software Development    
+                    <h2>Software Development</h2>
+                    <hr />
+
+                    <ul>
+                        
+                    </ul>
+                    <p>
+                        <i>Frontend:</i>&nbsp; &nbsp; JavaScript, TypeScript, HTML, CSS, React
+                    </p>
+                    <p>
+                        <i>Backend:</i>&nbsp; &nbsp; Java, SQL, Firebase, Python, Scikit-learn
+                    </p>
+                    <p>
+                        <i>Other:</i>&nbsp; &nbsp; AWS, Postman, Godot
+                    </p>
                 </div>
 
                 <div className="about-bottom-item">
