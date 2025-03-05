@@ -1,4 +1,5 @@
 import GithubIcon from "../assets/Github_Icon.svg";
+import LinkedInIcon from "../assets/LinkedIn_Icon.png";
 import "./Home.css";
 
 export default function Home(props) {
@@ -8,7 +9,13 @@ export default function Home(props) {
                 <h1>MICHAEL LAM</h1>
                 <h2>Software Developer / Quality Assurance</h2>
                 <div className="socials">
-                    <img src={GithubIcon} alt="Github Icon" />
+                    <a href="https://github.com/michlam" target="_blank">
+                        <img src={GithubIcon} alt="Github Icon" className="github-icon"/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/michlam812" target="_blank">
+                        <img src={LinkedInIcon} alt="LinkedIn Icon" className="linkedIn-icon"/>
+                    </a>
                 </div>
             </div>
         </section>
