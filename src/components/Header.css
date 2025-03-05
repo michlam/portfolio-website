@@ -18,11 +18,12 @@ header {
     gap: 50px;
 }
 
+
 span.nav-item > h4, p{
     display: inline;
+    cursor: pointer;
 }
 
-span.nav-item > h4 {
-    color: var(--french-grey);
-    
+span.nav-item:hover {
+    color: var(--light-blue);
 }

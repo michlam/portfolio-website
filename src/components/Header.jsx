@@ -1,8 +1,31 @@
+import { useEffect } from "react";
 import "./Header.css";
+import { useState } from "react";
 
 export default function Header() {
+    const [opacity, setOpacity] = useState(0);
+    const scrollRange = 800;
+
+    useEffect(() => {
+        function handleScroll() {
+            const scrollY = window.scrollY;
+            const newOpacity = (scrollY < scrollRange) ? (scrollY / scrollRange) : 1;
+            setOpacity(newOpacity)
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        }
+    }, [scrollRange]);
+
+    const headerStyles = {
+        backgroundColor: `rgba(0, 0, 255, ${opacity})`,
+        transition: 'background-color 0.3s ease'
+    }
+
     return (
-        <header>
+        <header style={headerStyles}>
             <span className="nav-item">
                 <h4><i>00</i></h4>
                 <p>Home</p>
