@@ -14,3 +14,17 @@ section.about {
     align-items: center;
 }
 
+.about-top {
+    padding: 0px 10vw 300px;
+}
+
+.about-top > h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.about-top > h3 {
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
