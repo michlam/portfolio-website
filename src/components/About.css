@@ -65,9 +65,21 @@ section.about {
     margin-bottom: 10px;
 }
 
-.about-bottom-item > p {
+.about-bottom-item > ul {
     display: default;
     margin-top: 0px;
-
     line-height: 150%;
+
+    list-style: none;
+    padding-left: 5px;
+}
+
+.about-bottom-item > ul > li {
+    background-image: url("../assets/Wheel_Icon.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 12px;
+    
+    padding-left: 25px;
+    margin-bottom: 15px;
 }

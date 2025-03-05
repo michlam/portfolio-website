@@ -20,17 +20,16 @@ export default function About(props) {
                     <hr />
 
                     <ul>
-                        
+                        <li>
+                            <i>Frontend:</i>&nbsp; &nbsp; JavaScript, TypeScript, HTML, CSS, React
+                        </li>
+                        <li>
+                            <i>Backend:</i>&nbsp; &nbsp; Java, SQL, Firebase, Python, Scikit-learn
+                        </li>
+                        <li>
+                            <i>Other:</i>&nbsp; &nbsp; AWS, Postman, Godot
+                        </li>
                     </ul>
-                    <p>
-                        <i>Frontend:</i>&nbsp; &nbsp; JavaScript, TypeScript, HTML, CSS, React
-                    </p>
-                    <p>
-                        <i>Backend:</i>&nbsp; &nbsp; Java, SQL, Firebase, Python, Scikit-learn
-                    </p>
-                    <p>
-                        <i>Other:</i>&nbsp; &nbsp; AWS, Postman, Godot
-                    </p>
                 </div>
 
                 <div className="about-bottom-item">
