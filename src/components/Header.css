@@ -1,0 +1,28 @@
+#root {
+    --rich-black: #071e22;
+    --dark-rich-black: #05181b;
+    --anti-flash-white: #f3f3f4;
+    --french-grey: #bdbdbe;
+
+
+    --light-blue: #718af4;
+}
+
+header {    
+    position: fixed;
+    margin: 25px 0px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+span.nav-item > h4, p{
+    display: inline;
+}
+
+span.nav-item > h4 {
+    color: var(--french-grey);
+    
+}

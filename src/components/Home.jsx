@@ -7,7 +7,7 @@ export default function Home(props) {
         <section className="home">
             <div className="home-content">
                 <h1>MICHAEL LAM</h1>
-                <h2>Software Developer / Quality Assurance</h2>
+                <h2>Software Developer &middot; Quality Assurance &middot; Game Developer</h2>
                 <div className="socials">
                     <a href="https://github.com/michlam" target="_blank">
                         <img src={GithubIcon} alt="Github Icon" className="github-icon"/>
