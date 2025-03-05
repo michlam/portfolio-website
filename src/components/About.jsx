@@ -15,7 +15,7 @@ export default function About(props) {
             </div>
 
             <div className="about-bottom">
-                <div className="about-bottom-item">
+                <div className="about-bottom-item about-swd">
                     <h2>Software Development</h2>
                     <hr />
 

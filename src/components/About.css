@@ -83,3 +83,11 @@ section.about {
     padding-left: 25px;
     margin-bottom: 15px;
 }
+
+.about-swd {
+    background-image: url("../assets/Code_Icon.svg");
+    background-repeat: no-repeat;
+    background-position: 150px 190px;
+    background-size: 225px;
+
+}
