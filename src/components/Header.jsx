@@ -4,13 +4,13 @@ import { useState } from "react";
 
 export default function Header() {
     const [opacity, setOpacity] = useState(0);
-    const scrollRange = 800;
+    const scrollRange = 600;
 
     useEffect(() => {
         function handleScroll() {
             const scrollY = window.scrollY;
             const newOpacity = (scrollY < scrollRange) ? (scrollY / scrollRange) : 1;
-            setOpacity(newOpacity)
+            setOpacity(Math.min(0.75, newOpacity));
         }
 
         window.addEventListener('scroll', handleScroll);
@@ -20,7 +20,7 @@ export default function Header() {
     }, [scrollRange]);
 
     const headerStyles = {
-        backgroundColor: `rgba(0, 0, 255, ${opacity})`,
+        backgroundColor: `rgba(5, 24, 27, ${opacity})`,
         transition: 'background-color 0.3s ease'
     }
 
