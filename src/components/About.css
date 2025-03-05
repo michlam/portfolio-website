@@ -2,6 +2,8 @@
     --rich-black: #071e22;
     --dark-rich-black: #05181b;
     --anti-flash-white: #f3f3f4;
+
+    --french-grey: #bdbdbe;
 }
 
 section.about {
@@ -15,7 +17,7 @@ section.about {
 }
 
 .about-top {
-    padding: 0px 10vw 300px;
+    padding: 0px 10vw 100px;
 }
 
 .about-top > h1 {
@@ -28,3 +30,16 @@ section.about {
     line-height: 150%;
 }
 
+.about-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid var(--french-grey);
+    border-radius: 3px;
+}
+
+.about-bottom-item {
+    width: 350px;
+    height: 350px;
+
+    border: 1px solid var(--french-grey);
+}
