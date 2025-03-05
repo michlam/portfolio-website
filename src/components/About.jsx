@@ -3,9 +3,15 @@ import "./About.css";
 export default function About(props) {
     return (
         <section className="about">
-            <div className="about-content">
-                <h1>Michael Lam</h1>
-                <h2>Software Developer / Quality Assurance</h2>
+            <div className="about-top">
+                <h1>Hello there, and welcome! 👋</h1>
+                <h3>
+                    I'm Michael, an aspiring software engineer and tester based in Vancouver. 
+                    Feel free to peruse around the website, where I show my previous experiences and projects.
+                </h3>
+                <p>
+                    Passionate about software development and a hobbyist game developer.
+                </p>
             </div>
         </section>
     )
