@@ -8,3 +8,4 @@
 - <a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development icons created by xnimrodx - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/down-arrow" title="down arrow icons">Down arrow icons created by th studio - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/location" title="location icons">Location icons created by IconMarketPK - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/external-link" title="external link icons">External link icons created by Fathema Khanom - Flaticon</a>

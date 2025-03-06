@@ -1,5 +1,6 @@
 import "./Experience.css";
 import PinIcon from "../assets/PinIcon.png";
+import LinkIcon from "../assets/Link_Icon.png";
 
 export default function Experience(props) {
     return (
@@ -22,7 +23,12 @@ export default function Experience(props) {
                         </div>
                     </summary>
 
-                    <div>
+                    <div className="work-content">
+                        <a href="https://neroglobal.com/" target="_blank" className="work-link">
+                            <img src={LinkIcon} />
+                            <h4>https://neroglobal.com/</h4>
+                        </a>
+                        
                         <p>
                             During this internship, I worked to test every part of the GPS solution suite, including websites, 
                             internal tools, APIs, third-party integrations, and hardware.
