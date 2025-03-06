@@ -1,4 +1,5 @@
 import "./About.css";
+import DownArrow from "./DownArrow";
 
 export default function About(props) {
     return (
@@ -63,6 +64,8 @@ export default function About(props) {
                     </ul>
                 </div>
             </div>
+
+            <DownArrow skip={"#experience"} />
         </section>
     )
 }

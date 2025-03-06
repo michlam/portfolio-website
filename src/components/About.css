@@ -35,7 +35,7 @@ section.about {
 }
 
 .about-bottom {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 2px solid var(--french-grey);
