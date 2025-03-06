@@ -6,12 +6,9 @@ export default function About(props) {
             <div className="about-top">
                 <h1>Hello there! 👋</h1>
                 <h3>
-                    I'm Michael, an aspiring software engineer and tester based in Vancouver. 
-                    Feel free to peruse around my website, where I show my previous experiences and projects.
+                    I'm Michael, an aspiring software engineer and tester, as well as a hobbyist game developer.
+                    Feel free to peruse around my website and check out my previous experiences and projects.
                 </h3>
-                <p>
-                    Passionate about software development and a hobbyist game developer.
-                </p>
             </div>
 
             <div className="about-bottom">
@@ -32,13 +29,38 @@ export default function About(props) {
                     </ul>
                 </div>
 
-                <div className="about-bottom-item">
-                    Quality Assurance
+                <div className="about-bottom-item about-qa">
+                    <h2>Quality Assurance</h2>
+                    <hr />
+
+                    <ul>
+                        <li>
+                            Experienced with manual and automated testing
+                        </li>
+                        <li>
+                            Two QA internships over the course of sixteen months
+                        </li>
+                        <li>
+                            <i>Tools: </i>&nbsp; Sahi, Mocha, JUnit, TestRail
+                        </li>
+                    </ul>
                 </div>
 
-                <div className="about-bottom-item">    
-                    Based in Canada
-                    Graduated BSC from The University of British Columbia
+                <div className="about-bottom-item about-edu">  
+                    <h2>Education</h2>  
+                    <hr />
+
+                    <ul>
+                        <li>
+                            Graduated BSC from The University of British Columbia
+                        </li>
+                        <li>
+                            <i>Courses: </i>&nbsp; Software construction, databases, cloud, game dev, internet
+                        </li>
+                        <li>
+                            Based in Canada 🍁
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>

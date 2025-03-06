@@ -5,5 +5,5 @@
 	</defs>
 	<style>
 	</style>
-	<use id="Background" style="opacity: .2" href="#img1" x="8" y="48"/>
+	<use id="Background" style="opacity: .1" href="#img1" x="8" y="48"/>
 </svg>

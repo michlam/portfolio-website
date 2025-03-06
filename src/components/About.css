@@ -6,6 +6,8 @@
     --french-grey: #bdbdbe;
 
     --light-blue: #718af4;
+    --orange-gold: #eb6a2d;
+    --light-green: #00ae77;
 }
 
 section.about {
@@ -60,7 +62,6 @@ section.about {
     left: -46px;
 
     border:none;
-    background-color: var(--light-blue);
     opacity: 40%;
     margin-bottom: 10px;
 }
@@ -82,6 +83,7 @@ section.about {
     
     padding-left: 25px;
     margin-bottom: 15px;
+    font-size: 0.95rem;
 }
 
 .about-swd {
@@ -89,5 +91,33 @@ section.about {
     background-repeat: no-repeat;
     background-position: 150px 190px;
     background-size: 225px;
+    
+    > hr {
+        background-color: var(--light-blue);
+    }
+}
 
+.about-qa {
+    background-image: url("../assets/Fix_Icon.svg");
+    background-repeat: no-repeat;
+    background-position: 150px 190px;
+    background-size: 225px;
+
+    > hr {
+        background-color: var(--orange-gold);
+    }
+}
+
+.about-edu {
+    background-image: url("../assets/UBC_Icon.svg");
+    background-repeat: no-repeat;
+    background-position: 150px 170px;
+    background-size: 225px;
+
+    > hr {
+        background-color: var(--light-green);
+
+        width: 140px;
+        left: -67px;
+    }
 }
