@@ -24,6 +24,11 @@ header {
     backdrop-filter: blur(5px);
 }
 
+header > a {
+    text-decoration: none;
+    color: var(--anti-flash-white);
+}
+
 
 span.nav-item > h4 {
     display: inline;

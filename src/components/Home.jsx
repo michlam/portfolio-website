@@ -1,5 +1,6 @@
 import GithubIcon from "../assets/Github_Icon.svg";
 import LinkedInIcon from "../assets/LinkedIn_Icon.png";
+import DownArrow from "./DownArrow";
 import "./Home.css";
 
 export default function Home(props) {
@@ -18,6 +19,8 @@ export default function Home(props) {
                     </a>
                 </div>
             </div>
+
+            <DownArrow skip={"#about"} />
         </section>
     )
 }

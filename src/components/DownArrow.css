@@ -1,0 +1,23 @@
+#root {
+    --rich-black: #071e22;
+    --dark-rich-black: #05181b;
+    --anti-flash-white: #f3f3f4;
+    --french-grey: #bdbdbe;
+
+    --light-blue: #718af4;
+}
+
+.down-arrow {
+    background-color: var(--anti-flash-white);
+    border-radius: 50%;
+    border: 3px solid transparent;
+    width: 30px;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+    &:hover {
+        background-color: var(--light-blue);
+    }
+}
+

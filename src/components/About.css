@@ -112,7 +112,7 @@ section.about {
 .about-edu {
     background-image: url("../assets/UBC_Icon.svg");
     background-repeat: no-repeat;
-    background-position: 150px 170px;
+    background-position: 165px 170px;
     background-size: 225px;
 
     > hr {

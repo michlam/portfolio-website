@@ -16,7 +16,8 @@ section.home {
 }
 
 .home-content {
-    margin-block: 35dvh;
+    margin-top: 35dvh;
+    margin-bottom: 29dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
