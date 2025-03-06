@@ -1,68 +1,39 @@
-import "./About.css";
+import "./Experience.css";
 
 export default function Experience(props) {
     return (
-        <section id="experience" className="about">
-            <div className="about-top">
-                <h1>Temporary Experience Panel 👋</h1>
-                <h3>
-                    I'm Michael, an aspiring software engineer and tester, as well as a hobbyist game developer.
-                    Feel free to peruse around my website and check out my previous experiences and projects.
-                </h3>
+        <section id="experience" className="experience">
+            <h1>Experience</h1>
+            <div className="experience-content">
+                <details name="work">
+                    <summary>QA Analyst Coop @ Vecima Networks Inc. Jan. - Aug. 2024 </summary>
+                    <div>
+                        <p>
+                            During this internship, I worked to test every part of the GPS solution suite, including websites, 
+                            internal tools, APIs, third-party integrations, and hardware.
+                        </p>
+                        <ul>
+                            <li>
+                                Developed and executed functional tests for over seven GPS device models, adhering to criteria set by client use cases 
+                                and specific device protocols.
+                            </li>
+                            <li>
+                                Contributed over 100 test cases to our Sahi test automation suite, significantly reducing release night downtime.
+                            </li>
+                            <li>
+                                Created a robust and scalable automation script to initialize hundreds of devices, 
+                                saving hours of manual input for bulk client registration.
+                            </li>
+                            <li>
+                                As principal QA for a third party integration, translated client requirements into actionable E2E test plans 
+                                and automated tests within a strict release schedule.
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </details>
             </div>
 
-            <div className="about-bottom">
-                <div className="about-bottom-item about-swd">
-                    <h2>Software Development</h2>
-                    <hr />
-
-                    <ul>
-                        <li>
-                            <i>Frontend:</i>&nbsp; &nbsp; JavaScript, TypeScript, HTML, CSS, React
-                        </li>
-                        <li>
-                            <i>Backend:</i>&nbsp; &nbsp; Java, SQL, Firebase, Python, Scikit-learn
-                        </li>
-                        <li>
-                            <i>Other:</i>&nbsp; &nbsp; AWS, Postman, Godot
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="about-bottom-item about-qa">
-                    <h2>Quality Assurance</h2>
-                    <hr />
-
-                    <ul>
-                        <li>
-                            Experienced with manual and automated testing
-                        </li>
-                        <li>
-                            Two QA internships over the course of sixteen months
-                        </li>
-                        <li>
-                            <i>Tools: </i>&nbsp; Sahi, Mocha, JUnit, TestRail
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="about-bottom-item about-edu">  
-                    <h2>Education</h2>  
-                    <hr />
-
-                    <ul>
-                        <li>
-                            Graduated BSC from The University of British Columbia
-                        </li>
-                        <li>
-                            <i>Courses: </i>&nbsp; Software construction, databases, cloud, game dev, internet
-                        </li>
-                        <li>
-                            Based in Canada 🍁
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </section>
     )
 }

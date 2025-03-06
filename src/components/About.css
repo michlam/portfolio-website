@@ -57,10 +57,8 @@ section.about {
 
 .about-bottom-item > hr {
     position: relative;
-    width: 180px;
     height: 8px;
     top: -30px;
-    left: -46px;
 
     border:none;
     opacity: 40%;
@@ -90,11 +88,13 @@ section.about {
 .about-swd {
     background-image: url("../assets/Code_Icon.svg");
     background-repeat: no-repeat;
-    background-position: 150px 190px;
+    background-position: 149px 175px;
     background-size: 225px;
     
     > hr {
         background-color: var(--light-blue);
+        width: 180px;
+        left: -47px;
     }
 }
 
@@ -106,6 +106,9 @@ section.about {
 
     > hr {
         background-color: var(--orange-gold);
+
+        width: 240px;
+        left: -17px;
     }
 }
 

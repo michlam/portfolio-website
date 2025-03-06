@@ -1,0 +1,21 @@
+#root {
+    --rich-black: #071e22;
+    --dark-rich-black: #05181b;
+    --anti-flash-white: #f3f3f4;
+
+    --french-grey: #bdbdbe;
+
+    --light-blue: #718af4;
+    --orange-gold: #eb6a2d;
+    --light-green: #00ae77;
+}
+
+section.experience {
+    height: 928px;
+    background: var(--dark-rich-black);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
