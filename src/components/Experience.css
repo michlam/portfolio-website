@@ -32,13 +32,65 @@ section.experience > h1 {
 .experience-content > details > summary {
     border: 2px solid var(--french-grey);
     border-radius: 1px;
-
+    padding: 40px 50px;
     display: flex;
+    justify-content: space-between;
+
+    &::after {
+        content: url("../assets/Arrow_Icon.svg");
+        transform: scale(0.08) rotate(90deg);
+        transform-origin: 130% 28%;
+        width: 50px;
+        height: 50px;
+    }
 }
+
 
 .work-date {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 250px;
+
+    & > h4 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    & > h2 {
+        margin: 0;
+        font-size: 1.7rem;
+    }   
+}
+
+.work-description {
+    display: flex;
+    flex-direction: column;
+
+    & > h2 {
+        margin: 0 0 5px;
+        font-weight: 550;
+        text-align: right;
+    }
+}
+
+.work-location {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    & > img {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+        opacity: 70%;
+    }
+
+    & > h4 {
+        margin: 0;
+        font-weight: 400;
+        color: var(--french-grey);
+    }
 }
