@@ -1,12 +1,27 @@
 import "./Experience.css";
+import PinIcon from "../assets/PinIcon.png";
 
 export default function Experience(props) {
     return (
         <section id="experience" className="experience">
             <h1>Experience</h1>
+            
             <div className="experience-content">
                 <details name="work">
-                    <summary>QA Analyst Coop @ Vecima Networks Inc. Jan. - Aug. 2024 </summary>
+                    <summary>
+                        <div className="work-date">
+                            <h4>Jan - Aug</h4>
+                            <h2>2024</h2>
+                        </div>
+                        <div className="work-description">
+                            <h2>QA Analyst Intern @ Vecima Networks Inc.</h2>
+                            <div className="work-location">
+                                <img src={PinIcon} />
+                                <h4>Vancouver, BC</h4>
+                            </div>
+                        </div>
+                    </summary>
+
                     <div>
                         <p>
                             During this internship, I worked to test every part of the GPS solution suite, including websites, 
@@ -29,6 +44,8 @@ export default function Experience(props) {
                                 and automated tests within a strict release schedule.
                             </li>
                         </ul>
+
+                        
                     </div>
                     
                 </details>

@@ -19,3 +19,26 @@ section.experience {
     justify-content: center;
     align-items: center;
 }
+
+section.experience > h1 {
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+.experience-content {
+    width: 1000px;
+}
+
+.experience-content > details > summary {
+    border: 2px solid var(--french-grey);
+    border-radius: 1px;
+
+    display: flex;
+}
+
+.work-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
