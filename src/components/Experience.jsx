@@ -1,10 +1,10 @@
 import "./About.css";
 
-export default function About(props) {
+export default function Experience(props) {
     return (
-        <section id="about" className="about">
+        <section id="experience" className="about">
             <div className="about-top">
-                <h1>Hello there! 👋</h1>
+                <h1>Temporary Experience Panel 👋</h1>
                 <h3>
                     I'm Michael, an aspiring software engineer and tester, as well as a hobbyist game developer.
                     Feel free to peruse around my website and check out my previous experiences and projects.

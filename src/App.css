@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #root {
   --rich-black: #071e22;
   --dark-rich-black: #05181b;

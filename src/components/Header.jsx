@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./Header.css";
 import { useState } from "react";
 
-export default function Header() {
+export default function Header(props) {
     const [opacity, setOpacity] = useState(0);
     const scrollRange = 600;
 
@@ -26,30 +26,40 @@ export default function Header() {
 
     return (
         <header style={headerStyles}>
-            <span className="nav-item">
-                <h4><i>00</i></h4>
-                <p>Home</p>
-            </span>
+            <a href="#home">
+                <span className="nav-item">
+                    <h4><i>00</i></h4>
+                    <p>Home</p>
+                </span>
+            </a>
 
-            <span className="nav-item">
-                <h4><i>01</i></h4>
-                <p>About</p>
-            </span>
+            <a href="#about">
+                <span className="nav-item">
+                    <h4><i>01</i></h4>
+                    <p>About</p>
+                </span>
+            </a>
 
-            <span className="nav-item">
-                <h4><i>02</i></h4>
-                <p>Experience</p>
-            </span>
+            <a href="#experience">
+                <span className="nav-item">
+                    <h4><i>02</i></h4>
+                    <p>Experience</p>
+                </span>
+            </a>
 
-            <span className="nav-item">
-                <h4><i>03</i></h4>
-                <p>Projects</p>
-            </span>
+            <a href="#projects">
+                <span className="nav-item">
+                    <h4><i>03</i></h4>
+                    <p>Projects</p>
+                </span>
+            </a>
 
-            <span className="nav-item">
-                <h4><i>04</i></h4>
-                <p>Contact</p>
-            </span>
+            <a href="#contact">   
+                <span className="nav-item">
+                    <h4><i>04</i></h4>
+                    <p>Contact</p>
+                </span>
+            </a>
         </header>
     )
 }

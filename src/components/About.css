@@ -21,7 +21,7 @@ section.about {
 }
 
 .about-top {
-    padding: 0px 10vw 100px;
+    padding: 0px 10vw 85px;
 }
 
 .about-top > h1 {
@@ -35,6 +35,7 @@ section.about {
 }
 
 .about-bottom {
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 2px solid var(--french-grey);
