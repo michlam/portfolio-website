@@ -1,38 +1,23 @@
 import "./Projects.css";
-import DownArrow from "./DownArrow";
+import projectsData from "../data/projectsData";
 
-export default function Projects(props) {
+export default function Projects() {
+    const projectsElements = projectsData.map((project) => {
+        return (
+            <div className="projects-item" key={project.name}>
+                <div className="projects-image-container">
+                    <img src={project.thumbnailPath} />
+                </div>
+                <h3>{project.name}</h3>
+            </div>
+        )
+    }) 
+
     return (
         <section id="projects" className="projects">
             <h1>Projects</h1>
             <div className="projects-container">
-                <div className="projects-item">
-                    <div className="projects-image-container">
-                        <img src="/projects/genshin-loadouts/Landing.png" />
-                    </div>
-                    <h3>Genshin Loadouts</h3>
-                </div>
-
-                <div className="projects-item">
-                    <div className="projects-image-container">
-                        <img src="/projects/genshin-loadouts/Landing.png" />
-                    </div>
-                    <h3>Genshin Loadouts</h3>
-                </div>
-                
-                <div className="projects-item">
-                    <div className="projects-image-container">
-                        <img src="/projects/genshin-loadouts/Landing.png" />
-                    </div>
-                    <h3>Genshin Loadouts</h3>
-                </div>
-                
-                <div className="projects-item">
-                    <div className="projects-image-container">
-                        <img src="/projects/genshin-loadouts/Landing.png" />
-                    </div>
-                    <h3>Genshin Loadouts</h3>
-                </div>
+                {projectsElements}
             </div>
         </section>
     )
