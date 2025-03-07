@@ -25,8 +25,7 @@ section.projects {
 }
 
 .projects-container {
-    width: 90%;
-
+    width: 93%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -48,7 +47,7 @@ section.projects {
     width: 95%;
     aspect-ratio: 1/1;
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 1px;
     cursor: pointer;
 
     & > img {
@@ -59,7 +58,7 @@ section.projects {
         
         &:hover {
             transform: scale(1.1);
-            transform-origin: center;
+            z-index: -1;
         }
     }
 }
