@@ -12,6 +12,7 @@
 
 section.about {
     height: 928px;
+    padding-bottom: 180px;
     background: var(--dark-rich-black);
 
     display: flex;
