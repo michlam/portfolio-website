@@ -5,7 +5,7 @@ export default [
         role: "QA Analyst Intern @ Vecima Networks Inc.",
         location: "Vancouver, BC",
 
-        link: "QA Analyst Intern @ Vecima Networks Inc.",
+        link: "https://neroglobal.com/",
         description: "During this internship, I worked to test every part of the GPS solution suite, including websites, internal tools, APIs, third-party integrations, and hardware.",
         responsibilities: [
             "Developed and executed functional tests for over seven GPS device models, adhering to criteria set by client use cases and specific device protocols.",
@@ -16,6 +16,6 @@ export default [
         skills: [
             "JavaScript", "Sahi", "GPS", "Test Automation", "Agile",
         ],
-        imagePath: "../../Vecima_Logo.svg"
+        imagePath: "/Vecima_Logo.svg"
     }
 ]

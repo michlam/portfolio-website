@@ -1,69 +1,67 @@
 import "./Experience.css";
 import PinIcon from "../assets/PinIcon.png";
 import LinkIcon from "../assets/Link_Icon.png";
+import experience from "../data/experienceData.js";
 
 export default function Experience(props) {
-    return (
-        <section id="experience" className="experience">
-            <h1>Experience</h1>
-            
-            <div className="experience-content">
+    const experienceElements = experience.map((exp) => {
+        const responsibiliesElements = exp.responsibilities.map((resp) => {
+            return (
+                <li key={resp}>{resp}</li>
+            )
+        })
+
+        const skillsElements = exp.skills.map((skill) => {
+            return (
+                <h4 key={skill}>{skill}</h4>
+            )
+        })
+
+        // const bgStyle = `background-image: url(${exp.imagePath})`;
+        const imagePath = "../../public/Vecima_Logo.svg"
+        const bgStyle = {
+            backgroundImage: `url(${exp.imagePath})`,
+        }
+
+
+        return (
+            <div className="experience-content" key={exp.role}>
                 <details name="work">
                     <summary>
                         <div className="work-date">
-                            <h4>Jan - Aug</h4>
-                            <h2>2024</h2>
+                            <h4>{exp.date1}</h4>
+                            <h2>{exp.date2}</h2>
                         </div>
                         <div className="work-description">
-                            <h2>QA Analyst Intern @ Vecima Networks Inc.</h2>
+                            <h2>{exp.role}</h2>
                             <div className="work-location">
                                 <img src={PinIcon} />
-                                <h4>Vancouver, BC</h4>
+                                <h4>{exp.location}</h4>
                             </div>
                         </div>
                     </summary>
 
-                    <div className="work-content">
-                        <a href="https://neroglobal.com/" target="_blank" className="work-link">
+                    <div className="work-content" style={bgStyle}>
+                        <a href={exp.link} target="_blank" className="work-link">
                             <img src={LinkIcon} />
-                            <h4>https://neroglobal.com/</h4>
+                            <h4>{exp.link}</h4>
                         </a>
 
-                        <p>
-                            During this internship, I worked to test every part of the GPS solution suite, including websites, 
-                            internal tools, APIs, third-party integrations, and hardware.
-                        </p>
-                        <ul>
-                            <li>
-                                Developed and executed functional tests for over seven GPS device models, adhering to criteria set by client use cases 
-                                and specific device protocols.
-                            </li>
-                            <li>
-                                Contributed over 100 test cases to our Sahi test automation suite, significantly reducing release night downtime.
-                            </li>
-                            <li>
-                                Created a robust and scalable automation script to initialize hundreds of devices, 
-                                saving hours of manual input for bulk client registration.
-                            </li>
-                            <li>
-                                As principal QA for a third party integration, translated client requirements into actionable E2E test plans 
-                                and automated tests within a strict release schedule.
-                            </li>
-                        </ul>
+                        <p>{exp.description}</p>
+                        <ul>{responsibiliesElements}</ul>
 
-                        <div className="work-skills">
-                            <h4>JavaScript</h4>
-                            <h4>Sahi</h4>
-                            <h4>GPS</h4>
-                            <h4>Test Automation</h4>
-                            <h4>Agile</h4>
-                        </div>
-                        
+                        <div className="work-skills">{skillsElements}</div> 
                     </div>
                     
                 </details>
             </div>
+        )
+    })
 
+    return (
+        <section id="experience" className="experience">
+            <h1>Experience</h1>
+            {experienceElements}
         </section>
     )
 }
