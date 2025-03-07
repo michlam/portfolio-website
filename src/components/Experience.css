@@ -29,6 +29,10 @@ section.experience > h1 {
     width: 1000px;
 }
 
+.experience-elements {
+    margin-bottom: 200px;
+}
+
 .experience-content > details > summary {
     border: 2px solid var(--french-grey);
     border-radius: 1px;
@@ -156,7 +160,7 @@ section.experience > h1 {
 
 .work-link {
     display: flex;
-    width: 230px;
+    width: 470px;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;

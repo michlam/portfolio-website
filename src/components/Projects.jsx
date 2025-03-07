@@ -4,7 +4,7 @@ import LinkIcon from "../assets/Link_Icon.png";
 import experience from "../data/experienceData.js";
 import DownArrow from "./DownArrow";
 
-export default function Experience(props) {
+export default function Projects(props) {
     const experienceElements = experience.map((exp) => {
         const responsibiliesElements = exp.responsibilities.map((resp) => {
             return (
@@ -57,7 +57,7 @@ export default function Experience(props) {
     })
 
     return (
-        <section id="experience" className="experience">
+        <section id="projects" className="experience">
             <h1>Experience</h1>
             <div className="experience-elements">
                 {experienceElements}
