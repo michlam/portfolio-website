@@ -17,12 +17,9 @@ export default function Experience(props) {
             )
         })
 
-        // const bgStyle = `background-image: url(${exp.imagePath})`;
-        const imagePath = "../../public/Vecima_Logo.svg"
         const bgStyle = {
             backgroundImage: `url(${exp.imagePath})`,
         }
-
 
         return (
             <div className="experience-content" key={exp.role}>

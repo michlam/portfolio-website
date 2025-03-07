@@ -33,6 +33,7 @@ section.experience > h1 {
     border: 2px solid var(--french-grey);
     border-radius: 1px;
     padding: 40px 50px;
+    margin-top: -2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +73,6 @@ section.experience > h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 220px;
 
     & > h4 {
         margin: 0;
@@ -89,6 +89,8 @@ section.experience > h1 {
 .work-description {
     display: flex;
     flex-direction: column;
+    align-items: right;
+    width: 700px;
 
     & > h2 {
         margin: 0 0 5px;
@@ -124,7 +126,7 @@ section.experience > h1 {
 
     /* background-image: url("../assets/Vecima_Logo.svg"); */
     background-repeat: no-repeat;
-    background-position: 650px 100px;
+    background-position: 650px 130px;
     background-size: 350px;
 
     & > p {
@@ -151,8 +153,6 @@ section.experience > h1 {
         font-size: 0.9rem;
     }
 }
-
-
 
 .work-link {
     display: flex;
