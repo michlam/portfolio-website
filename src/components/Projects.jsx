@@ -13,6 +13,26 @@ export default function Projects(props) {
                     <h3>Genshin Loadouts</h3>
                 </div>
 
+                <div className="projects-item">
+                    <div className="projects-image-container">
+                        <img src="/projects/genshin-loadouts/Landing.png" />
+                    </div>
+                    <h3>Genshin Loadouts</h3>
+                </div>
+                
+                <div className="projects-item">
+                    <div className="projects-image-container">
+                        <img src="/projects/genshin-loadouts/Landing.png" />
+                    </div>
+                    <h3>Genshin Loadouts</h3>
+                </div>
+                
+                <div className="projects-item">
+                    <div className="projects-image-container">
+                        <img src="/projects/genshin-loadouts/Landing.png" />
+                    </div>
+                    <h3>Genshin Loadouts</h3>
+                </div>
             </div>
         </section>
     )
