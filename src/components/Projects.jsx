@@ -9,12 +9,11 @@ export default function Projects(props) {
                 <div className="projects-item">
                     <div className="projects-image-container">
                         <img src="/projects/genshin-loadouts/Landing.png" />
-                        <h4>Genshin Loadouts</h4>
                     </div>
+                    <h3>Genshin Loadouts</h3>
                 </div>
 
             </div>
-            <DownArrow skip="#projects"/>
         </section>
     )
 }

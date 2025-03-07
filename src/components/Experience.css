@@ -11,13 +11,11 @@
 }
 
 section.experience {
-    height: 928px;
     background: var(--dark-rich-black);
     padding-bottom: 180px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
