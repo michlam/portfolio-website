@@ -40,13 +40,13 @@ export default [
         imagePath: "/Gravite_Logo.svg"
     },
     {
-        date1: "Jan - Aug",
-        date2: "2022",
-        role: "QA Tester Intern @ Gravit-e Technologies3",
-        location: "Vancouver, BC",
+        date1: "Jan - Jun",
+        date2: "2019",
+        role: "Website Manager Volunteer @ KidSport Richmond",
+        location: "Richmond, BC",
 
-        link: "https://www.gravit-e.ca/",
-        description: "As part of the QA team, I tested over thirty client websites, learning about the software development lifecycle, collaborating with other QA and developers, and translating client requirements into reusable test cases.",
+        link: "https://kidsportcanada.ca/british-columbia/richmond/",
+        description: "In my senior year of high school, I volunteered to manage the website and blog for a local charity. This opportunity was my first exposure to working with technology.",
         
         
         responsibilities: [

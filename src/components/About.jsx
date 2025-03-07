@@ -53,7 +53,7 @@ export default function About(props) {
 
                     <ul>
                         <li>
-                            Graduated BSC from The University of British Columbia
+                            Graduated 2025 in BSC from The University of British Columbia
                         </li>
                         <li>
                             <i>Courses: </i>&nbsp; Software construction, databases, cloud, game dev, internet
