@@ -124,11 +124,34 @@ section.experience > h1 {
 
     & > p {
         margin: 0;
+        font-size: 1rem;
+        font-weight: 350;
+        line-height: 150%;
+    }
+
+    & > ul {
+        display: default;
+        list-style: none;
+        padding-left: 5px;
+    }
+
+    & > ul > li {
+        background-image: url("../assets/Wheel_Icon.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 12px;
+
+        padding-left: 25px;
+        margin-bottom: 15px;
+        font-size: 0.9rem;
     }
 }
 
+
+
 .work-link {
     display: flex;
+    width: 230px;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
