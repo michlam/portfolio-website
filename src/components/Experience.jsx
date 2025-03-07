@@ -28,7 +28,7 @@ export default function Experience(props) {
                             <img src={LinkIcon} />
                             <h4>https://neroglobal.com/</h4>
                         </a>
-                        
+
                         <p>
                             During this internship, I worked to test every part of the GPS solution suite, including websites, 
                             internal tools, APIs, third-party integrations, and hardware.
@@ -51,6 +51,13 @@ export default function Experience(props) {
                             </li>
                         </ul>
 
+                        <div className="work-skills">
+                            <h4>JavaScript</h4>
+                            <h4>Sahi</h4>
+                            <h4>GPS</h4>
+                            <h4>Test Automation</h4>
+                            <h4>Agile</h4>
+                        </div>
                         
                     </div>
                     

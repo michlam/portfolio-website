@@ -122,6 +122,11 @@ section.experience > h1 {
     padding: 40px 50px;
     margin-top: -2px;
 
+    background-image: url("../assets/Vecima_Logo.svg");
+    background-repeat: no-repeat;
+    background-position: 650px 100px;
+    background-size: 350px;
+
     & > p {
         margin: 0;
         font-size: 1rem;
@@ -172,5 +177,19 @@ section.experience > h1 {
         &:hover {
             text-decoration: underline;
         }
+    }
+}
+
+.work-skills {
+    display: flex;
+    gap: 12px;
+
+    & > h4 {
+        background-color: #0a2a30;
+        margin: 5px 0px 0px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 550;
     }
 }
