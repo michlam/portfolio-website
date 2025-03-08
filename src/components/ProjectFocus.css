@@ -44,3 +44,12 @@
         }
     }
 }
+
+.dialog-description {
+    font-size: 0.9rem;
+    font-weight: 350;
+    width: 60%;
+    margin-top: 15px;
+
+    line-height: 170%;
+}

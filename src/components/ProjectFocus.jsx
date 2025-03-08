@@ -33,7 +33,8 @@ export default function ProjectFocus(props) {
                 <div className="dialog-bottom">
                     <div className="dialog-left">
                         <p className="dialog-description">
-                            Description
+                            Genshin Loadouts is a web application inspired by combining my passion for software development with one of my favourite games - Genshin Impact.
+                            I wanted to create a tool that simulates the user creation, character unlocking, and team creation processes.
                         </p>
                         {skillsElements}
                     </div>
