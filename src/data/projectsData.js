@@ -37,10 +37,10 @@ export default [
     },
     {
         name: "Calendar Task Tracker",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/calendar/thumbnail.png",
     },
     {
         name: "Youth Financial Tracking App",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/goa/thumbnail.png",
     }
 ]
