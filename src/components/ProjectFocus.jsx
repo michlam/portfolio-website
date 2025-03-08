@@ -12,7 +12,7 @@ export default function ProjectFocus(props) {
     )) : null;
 
     const carouselImages = props.focus ? props.focus.images.map((image) => (
-        <div>
+        <div key={image}>
             <img src={image} />
         </div>
     )) : null;
@@ -30,6 +30,19 @@ export default function ProjectFocus(props) {
             }}>
                 <div className="dialog-top">
                     <h1>{props.focus ? props.focus.name : null}</h1>
+                    {
+                        props.focus && props.focus.demoLink ? 
+                        <Link href={props.focus.demoLink} target="_blank" className="project-github-link" sx={{
+                            color: "#bdbdbe",
+                            textDecoration: "none",
+                            marginTop: "10px",
+                        }}>
+                            <img src={LinkIcon} />
+                            <p>View Demo</p>
+                        </Link> :
+                        null
+                    }
+
                     <Link href={props.focus ? props.focus.githubLink : null} target="_blank" className="project-github-link" sx={{
                         color: "#bdbdbe",
                         textDecoration: "none",

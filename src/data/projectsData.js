@@ -24,11 +24,32 @@ export default [
             "/projects/genshin-loadouts/Teams.png",
         ]
     },
-    // {
-    //     name: "Frontend Mentor",
-    //     thumbnailPath: "/projects/frontend-mentor/thumbnail.png",
-        
-    // },
+    {
+        name: "Frontend Mentor",
+        thumbnailPath: "/projects/frontend-mentor/thumbnail.png",
+        demoLink: "https://michlam.github.io/Frontend-Mentor/",
+        githubLink: "https://github.com/michlam/Frontend-Mentor",
+        desc1: "Genshin Loadouts is a web application combining my passion for software development with one of my favourite games - Genshin Impact. I wanted to create a tool that simulates the user creation, character unlocking, and team creation processes.",
+        desc2: "I built the REST API backend with Java and Spring, which interfaces with a MySQL database. The frontend is built with React and React Router, which consumes the API.",
+        skills: [
+            "Java",
+            "Spring",
+            "MySQL Workbench",
+            "Postman",
+            "React",
+            "React Router",
+            "JavaScript",
+            "HTML",
+            "CSS",
+        ],
+        images: [
+            "/projects/genshin-loadouts/DemoGif.gif",
+            "/projects/genshin-loadouts/Landing.png",
+            "/projects/genshin-loadouts/Login.png",
+            "/projects/genshin-loadouts/Character-Unlocked.png",
+            "/projects/genshin-loadouts/Teams.png",
+        ]
+    },
     // {
     //     name: "Plungerman",
     //     thumbnailPath: "/projects/plungerman/thumbnail.png",
