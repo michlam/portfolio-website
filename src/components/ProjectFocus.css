@@ -23,7 +23,7 @@
 
     & > h1 {
         width: 60%;
-        margin: 0;
+        margin: 0px 0px 15px;
     }
 }
 
@@ -48,8 +48,36 @@
 .dialog-description {
     font-size: 0.9rem;
     font-weight: 350;
-    width: 60%;
-    margin-top: 15px;
+    width: 55%;
+    margin: 15px 0px 25px;
 
     line-height: 170%;
 }
+
+.dialog-skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 12px;
+
+    & > p {
+        background-color: #163f46;
+        margin: 0px 0px 0px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+}    
+
+/* display: flex;
+gap: 12px;
+
+& > h4 {
+    background-color: #0a2a30;
+    margin: 5px 0px 0px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 550;
+} */

@@ -4,7 +4,17 @@ import "./ProjectFocus.css";
 
 export default function ProjectFocus(props) {
     const skillsElements = (
-        <>Skills elements</>
+        <div className="dialog-skills">
+            <p>Java</p>
+            <p>Spring</p>
+            <p>MySQL Workbench</p>
+            <p>Postman</p>
+            <p>React</p>
+            <p>React Router</p>
+            <p>JavaScript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+        </div>
     )
 
     function handleClose() {
@@ -12,7 +22,7 @@ export default function ProjectFocus(props) {
     }
 
     return (
-        <Dialog open={props.open} onClose={handleClose} maxWidth="md" fullWidth="md">
+        <Dialog open={props.open} onClose={handleClose} maxWidth="lg" fullWidth="lg">
             <DialogContent className="dialog-content" sx={{
                 backgroundColor: "#0b2b31",
                 color: "#f3f3f4",
@@ -33,8 +43,12 @@ export default function ProjectFocus(props) {
                 <div className="dialog-bottom">
                     <div className="dialog-left">
                         <p className="dialog-description">
-                            Genshin Loadouts is a web application inspired by combining my passion for software development with one of my favourite games - Genshin Impact.
+                            Genshin Loadouts is a web application combining my passion for software development with one of my favourite games - Genshin Impact.
                             I wanted to create a tool that simulates the user creation, character unlocking, and team creation processes.
+                        </p>
+                        <p className="dialog-description">
+                            I built the REST API backend with Java and Spring, which interfaces with a MySQL database. 
+                            The frontend is built with React and React Router, which consumes the API.
                         </p>
                         {skillsElements}
                     </div>
