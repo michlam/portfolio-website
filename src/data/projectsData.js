@@ -137,10 +137,30 @@ export default [
             "/projects/openalpr/3.png",
         ]
     },
-    // {
-    //     name: "Dungeons Inc.",
-    //     thumbnailPath: "/projects/dungeons/thumbnail.png",
-    // },
+    {
+        name: "Dungeons Inc.",
+        thumbnailPath: "/projects/dungeons/thumbnail.png",
+
+        githubLink: "https://github.com/michlam/Dungeons-Inc",
+        desc1: "For my Video Game Development capstone project, our group of six created a card based game where you play as a dungeon master defending your home from the invading adventurers. Place down powerful cards to buff your goblin buddies and fight off waves of mighty foes!",
+        desc2: "This project utilized an Entity-Component System of development in C++ without the use of a game engine. My focus was on creating the basic game loop, shaders, text rendering, and the UI and logic for all the menus. If you have Visual Studio, download the code and check it out!",
+        skills: [
+            "C++",
+            "GLSL",
+            "Computer Graphics",
+            "Entity-Component System",
+            "Visual Studio",
+            "Asset Creation",
+            "Game Development"
+        ],
+        images: [
+            "/projects/dungeons/1.png",
+            "/projects/dungeons/2.png",
+            "/projects/dungeons/3.png",
+            "/projects/dungeons/4.png",
+            "/projects/dungeons/5.png",
+        ]
+    },
     // {
     //     name: "UBC Notes",
     //     thumbnailPath: "/projects/ubcnotes/thumbnail.png",
