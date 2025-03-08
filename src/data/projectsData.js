@@ -110,10 +110,33 @@ export default [
             "/projects/swarm/4.png",
         ]
     },
-    // {
-    //     name: "OpenALPR Image Processing Pipeline",
-    //     thumbnailPath: "/projects/openalpr/thumbnail.png",
-    // },
+    {
+        name: "OpenALPR Image Processing Pipeline",
+        thumbnailPath: "/projects/openalpr/thumbnail.png",
+
+        githubLink: "https://github.com/michlam/Image-Processing-Pipeline",
+        desc1: "For my Cloud Computing capstone project, our group of five created an image processing pipeline that takes in images of license plates, extracts the number, region, and timestamp, and saves it to our database.",
+        desc2: "My focus was on setting up the OpenALPR docker container on AWS, extracting the result to be stored in S3 and RDS and returned via API calls. I was also in charge of setting up IAM roles and VPCs with security groups that adhere to the principle of least-privilege.",
+        skills: [
+            "AWS",
+            "Lambda",
+            "ECR",
+            "ECS",
+            "S3",
+            "RDS",
+            "IAM",
+            "VPC",
+            "Python",
+            "Docker",
+            "OpenALPR",
+        ],
+        images: [
+            "/projects/openalpr/0.png",
+            "/projects/openalpr/1.png",
+            "/projects/openalpr/2.png",
+            "/projects/openalpr/3.png",
+        ]
+    },
     // {
     //     name: "Dungeons Inc.",
     //     thumbnailPath: "/projects/dungeons/thumbnail.png",
