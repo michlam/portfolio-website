@@ -11,20 +11,12 @@ export default function ProjectFocus(props) {
         <p key={skill}>{skill}</p>
     )) : null;
 
-    const carousel = (
-        <Carousel width="55%" dynamicHeight>
-            <div>
-                <img src="/projects/genshin-loadouts/Landing.png" />
-            </div>
-            <div className="carousel">
-                <img src="/projects/covid/thumbnail.png" />
-            </div>
-            <div className="carousel">
-                <img src="/projects/dungeons/thumbnail.png" />
-            </div>
-        </Carousel>
-    )
-
+    const carouselImages = props.focus ? props.focus.images.map((image) => (
+        <div>
+            <img src={image} />
+        </div>
+    )) : null;
+    
     function handleClose() {
         props.setOpen(false);
     }
@@ -34,7 +26,7 @@ export default function ProjectFocus(props) {
             <DialogContent className="dialog-content" sx={{
                 backgroundColor: "#0b2b31",
                 color: "#f3f3f4",
-                padding: "50px 50px 20px",
+                padding: "50px 50px 0px",
             }}>
                 <div className="dialog-top">
                     <h1>{props.focus ? props.focus.name : null}</h1>
@@ -59,7 +51,9 @@ export default function ProjectFocus(props) {
                     </div>
 
                     <div className="dialog-right">
-                        {carousel}
+                        <Carousel width="95%" dynamicHeight>
+                            {carouselImages}
+                        </Carousel>
                     </div>
                 </div>
             </DialogContent>

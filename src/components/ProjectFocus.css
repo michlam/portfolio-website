@@ -74,6 +74,10 @@
     grid-template-columns: 50fr 50fr;
 }
 
+.dialog-left {
+    padding-bottom: 80px;
+}
+
 .dialog-right {
     margin-left: 50px;
     display: flex;

@@ -16,6 +16,13 @@ export default [
             "HTML",
             "CSS",
         ],
+        images: [
+            "/projects/genshin-loadouts/DemoGif.gif",
+            "/projects/genshin-loadouts/Landing.png",
+            "/projects/genshin-loadouts/Login.png",
+            "/projects/genshin-loadouts/Character-Unlocked.png",
+            "/projects/genshin-loadouts/Teams.png",
+        ]
     },
     // {
     //     name: "Frontend Mentor",
