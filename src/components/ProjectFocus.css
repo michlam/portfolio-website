@@ -22,8 +22,9 @@
     justify-content: space-between;
 
     & > h1 {
+        font-size: 3rem;
         width: 60%;
-        margin: 0px 0px 15px;
+        margin: 0px 0px 30px;
     }
 }
 
@@ -48,8 +49,7 @@
 .dialog-description {
     font-size: 0.9rem;
     font-weight: 350;
-    width: 55%;
-    margin: 15px 0px 25px;
+    margin: 0px 0px 35px;
 
     line-height: 170%;
 }
@@ -57,8 +57,7 @@
 .dialog-skills {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    gap: 12px;
+    gap: 15px;
 
     & > p {
         background-color: #163f46;
@@ -68,16 +67,22 @@
         font-size: 0.8rem;
         font-weight: 400;
     }
-}    
+}   
 
-/* display: flex;
-gap: 12px;
+.dialog-bottom {
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+}
 
-& > h4 {
-    background-color: #0a2a30;
-    margin: 5px 0px 0px;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 550;
-} */
+.dialog-right {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -20,18 +20,15 @@ export default function ProjectFocus(props) {
     )
 
     const carousel = (
-        <Carousel>
+        <Carousel width="40%">
             <div>
                 <img src="/public/projects/genshin-loadouts/Landing.png" />
-                <p className="legend">Legend 1</p>
             </div>
-            <div>
+            <div className="carousel">
                 <img src="/public/projects/covid/thumbnail.png" />
-                <p className="legend">Legend 2</p>
             </div>
-            <div>
+            <div className="carousel">
                 <img src="/public/projects/dungeons/thumbnail.png" />
-                <p className="legend">Legend 3</p>
             </div>
         </Carousel>
     )
@@ -45,7 +42,7 @@ export default function ProjectFocus(props) {
             <DialogContent className="dialog-content" sx={{
                 backgroundColor: "#0b2b31",
                 color: "#f3f3f4",
-                padding: "40px 50px",
+                padding: "50px 50px 20px",
             }}>
                 <div className="dialog-top">
                     <h1>{props.focus}</h1>
