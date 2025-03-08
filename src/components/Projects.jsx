@@ -8,7 +8,7 @@ export default function Projects() {
     const [focus, setFocus] = useState(null);
 
     function handleOpenFocus(projectName) {
-        setFocus(projectName);
+        setFocus(getProjectFocus(projectName));
         setOpen(true);
     }
 
@@ -34,4 +34,10 @@ export default function Projects() {
             </section>
         </>
     )
+}
+
+function getProjectFocus(projectName) {
+    for (let i = 0; i < projectsData.length; i++) {
+        if (projectsData[i].name === projectName) return projectsData[i];
+    }
 }

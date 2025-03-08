@@ -1,34 +1,26 @@
 import { Dialog, DialogContent, Link } from "@mui/material";
-import LinkIcon from "../assets/Link_Icon.png";
-import "./ProjectFocus.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import LinkIcon from "../assets/Link_Icon.png";
+import projectsData from "../data/projectsData.js";
+import "./ProjectFocus.css";
+import { useState } from "react";
 
 export default function ProjectFocus(props) {
-    const skillsElements = (
-        <div className="dialog-skills">
-            <p>Java</p>
-            <p>Spring</p>
-            <p>MySQL Workbench</p>
-            <p>Postman</p>
-            <p>React</p>
-            <p>React Router</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-        </div>
-    )
+    const skillsElements = props.focus ? props.focus.skills.map((skill) => (
+        <p key={skill}>{skill}</p>
+    )) : null;
 
     const carousel = (
         <Carousel width="55%" dynamicHeight>
             <div>
-                <img src="/public/projects/genshin-loadouts/Landing.png" />
+                <img src="/projects/genshin-loadouts/Landing.png" />
             </div>
             <div className="carousel">
-                <img src="/public/projects/covid/thumbnail.png" />
+                <img src="/projects/covid/thumbnail.png" />
             </div>
             <div className="carousel">
-                <img src="/public/projects/dungeons/thumbnail.png" />
+                <img src="/projects/dungeons/thumbnail.png" />
             </div>
         </Carousel>
     )
@@ -45,8 +37,8 @@ export default function ProjectFocus(props) {
                 padding: "50px 50px 20px",
             }}>
                 <div className="dialog-top">
-                    <h1>{props.focus}</h1>
-                    <Link href="https://www.google.ca" target="_blank" className="project-github-link" sx={{
+                    <h1>{props.focus ? props.focus.name : null}</h1>
+                    <Link href={props.focus ? props.focus.githubLink : null} target="_blank" className="project-github-link" sx={{
                         color: "#bdbdbe",
                         textDecoration: "none",
                         marginTop: "10px",
@@ -58,15 +50,12 @@ export default function ProjectFocus(props) {
 
                 <div className="dialog-bottom">
                     <div className="dialog-left">
-                        <p className="dialog-description">
-                            Genshin Loadouts is a web application combining my passion for software development with one of my favourite games - Genshin Impact.
-                            I wanted to create a tool that simulates the user creation, character unlocking, and team creation processes.
-                        </p>
-                        <p className="dialog-description">
-                            I built the REST API backend with Java and Spring, which interfaces with a MySQL database. 
-                            The frontend is built with React and React Router, which consumes the API.
-                        </p>
-                        {skillsElements}
+                        <p className="dialog-description">{props.focus ? props.focus.desc1 : null}</p>
+                        <p className="dialog-description">{props.focus ? props.focus.desc2 : null}</p>
+
+                        <div className="dialog-skills">
+                            {skillsElements}
+                        </div>
                     </div>
 
                     <div className="dialog-right">
