@@ -50,10 +50,24 @@ export default [
             "/projects/frontend-mentor/6.png",
         ]
     },
-    // {
-    //     name: "Plungerman",
-    //     thumbnailPath: "/projects/plungerman/thumbnail.png",
-    // },
+    {
+        name: "Plungerman",
+        thumbnailPath: "/projects/plungerman/thumbnail.png",
+        githubLink: "https://github.com/michlam/Plungerman",
+        desc1: "Swing around a cityscape as Plungerman! Inspired by the Spiderman movies from my childhood, this was my first experience with 3D game development with Godot.",
+        desc2: "My goal with this project was to focus on the foundations of a 3D first person game - player movement and camera movement. If you have Godot 4 installed, you can clone the repository and try it out yourself!",
+        skills: [
+            "Godot",
+            "GDScript",
+            "3-Dimensional",
+            "Game Development",
+        ],
+        images: [
+            "/projects/plungerman/DemoGif.gif",
+            "/projects/plungerman/thumbnail.png",
+            "/projects/plungerman/1.png",
+        ]
+    },
     // {
     //     name: "Exam Day",
     //     thumbnailPath: "/projects/exam-day/thumbnail.png",
