@@ -1,9 +1,14 @@
+import { Dialog } from "@mui/material";
 import "./ProjectFocus.css";
 
 export default function ProjectFocus(props) {
+    function handleClose() {
+        props.setOpen(false);
+    }
+
     return (
-        <dialog open>
-            <h1>modal open</h1>
-        </dialog>
+        <Dialog open={props.open} onClose={handleClose}>
+            <h1>Hello hello</h1>
+        </Dialog>
     )
 }

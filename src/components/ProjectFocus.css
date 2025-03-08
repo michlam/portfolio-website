@@ -9,3 +9,12 @@
     --orange-gold: #eb6a2d;
     --light-green: #00ae77;
 }
+
+/* dialog {
+    position: fixed;
+    top: 20%;
+    left: 0%;
+    
+    background-color: red;
+    z-index: 2;
+} */
