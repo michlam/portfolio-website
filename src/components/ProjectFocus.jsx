@@ -1,6 +1,8 @@
 import { Dialog, DialogContent, Link } from "@mui/material";
 import LinkIcon from "../assets/Link_Icon.png";
 import "./ProjectFocus.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function ProjectFocus(props) {
     const skillsElements = (
@@ -15,6 +17,23 @@ export default function ProjectFocus(props) {
             <p>HTML</p>
             <p>CSS</p>
         </div>
+    )
+
+    const carousel = (
+        <Carousel>
+            <div>
+                <img src="/public/projects/genshin-loadouts/Landing.png" />
+                <p className="legend">Legend 1</p>
+            </div>
+            <div>
+                <img src="/public/projects/covid/thumbnail.png" />
+                <p className="legend">Legend 2</p>
+            </div>
+            <div>
+                <img src="/public/projects/dungeons/thumbnail.png" />
+                <p className="legend">Legend 3</p>
+            </div>
+        </Carousel>
     )
 
     function handleClose() {
@@ -54,7 +73,7 @@ export default function ProjectFocus(props) {
                     </div>
 
                     <div className="dialog-right">
-                        {/* CAROUSEL GOES HERE */}
+                        {carousel}
                     </div>
                 </div>
             </DialogContent>
