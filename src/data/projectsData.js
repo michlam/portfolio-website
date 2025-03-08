@@ -21,19 +21,19 @@ export default [
     },
     {
         name: "OpenALPR Image Processing Pipeline",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/openalpr/thumbnail.png",
     },
     {
         name: "Dungeons Inc.",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/dungeons/thumbnail.png",
     },
     {
         name: "UBC Notes",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/ubcnotes/thumbnail.png",
     },
     {
         name: "COVID Vaccine Registration Simulator",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/covid/thumbnail.png",
     },
     {
         name: "Calendar Task Tracker",
