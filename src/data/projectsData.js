@@ -68,10 +68,28 @@ export default [
             "/projects/plungerman/1.png",
         ]
     },
-    // {
-    //     name: "Exam Day",
-    //     thumbnailPath: "/projects/exam-day/thumbnail.png",
-    // },
+    {
+        name: "Exam Day",
+        thumbnailPath: "/projects/exam-day/thumbnail.png",
+        githubLink: "https://github.com/michlam/exam-day",
+
+        desc1: "You have one exam remaining before you can enjoy your sweet summer freedom. Go through the life of the protagonist on their exam day in this super short visual novel!",
+        desc2: "For my second experience with Godot, I wanted to create a visual novel with the focus on character dialogue, sound, saving, loading, and branching timelines. Head to the releases section in the Github repository to check it out!",
+        skills: [
+            "Godot",
+            "GDScript",
+            "Dialogic",
+            "Visual Novel",
+            "2-Dimensional",
+            "Game Development",
+        ],
+        images: [
+            "/projects/exam-day/1.png",
+            "/projects/exam-day/2.png",
+            "/projects/exam-day/3.png",
+
+        ]
+    },
     // {
     //     name: "Swarm",
     //     thumbnailPath: "/projects/swarm/thumbnail.png",
