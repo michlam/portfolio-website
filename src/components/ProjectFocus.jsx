@@ -1,5 +1,5 @@
-import { Dialog } from "@mui/material";
-import Link from "../assets/Link_Icon.png";
+import { Dialog, DialogContent, Link } from "@mui/material";
+import LinkIcon from "../assets/Link_Icon.png";
 import "./ProjectFocus.css";
 
 export default function ProjectFocus(props) {
@@ -12,14 +12,22 @@ export default function ProjectFocus(props) {
     }
 
     return (
-        <Dialog open={props.open} onClose={handleClose}>
-            <div className="dialog">
+        <Dialog open={props.open} onClose={handleClose} maxWidth="md" fullWidth="md">
+            <DialogContent className="dialog-content" sx={{
+                backgroundColor: "#0b2b31",
+                color: "#f3f3f4",
+                padding: "40px 50px",
+            }}>
                 <div className="dialog-top">
                     <h1>{props.focus}</h1>
-                    <div className="project-github-link">
-                        <img src={Link} />
+                    <Link href="https://www.google.ca" target="_blank" className="project-github-link" sx={{
+                        color: "#bdbdbe",
+                        textDecoration: "none",
+                        marginTop: "10px",
+                    }}>
+                        <img src={LinkIcon} />
                         <p>View in GitHub</p>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="dialog-bottom">
@@ -34,7 +42,7 @@ export default function ProjectFocus(props) {
                         {/* CAROUSEL GOES HERE */}
                     </div>
                 </div>
-            </div>
+            </DialogContent>
         </Dialog>
     )
 }

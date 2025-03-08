@@ -40,7 +40,7 @@ export default [
         thumbnailPath: "/projects/calendar/thumbnail.png",
     },
     {
-        name: "Youth Financial Tracking App",
+        name: "Youth Financial Tracker",
         thumbnailPath: "/projects/goa/thumbnail.png",
     }
 ]
