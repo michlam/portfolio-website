@@ -72,7 +72,6 @@ export default [
         name: "Exam Day",
         thumbnailPath: "/projects/exam-day/thumbnail.png",
         githubLink: "https://github.com/michlam/exam-day",
-
         desc1: "You have one exam remaining before you can enjoy your sweet summer freedom. Go through the life of the protagonist on their exam day in this super short visual novel!",
         desc2: "For my second experience with Godot, I wanted to create a visual novel with the focus on character dialogue, sound, saving, loading, and branching timelines. Head to the releases section in the Github repository to check it out!",
         skills: [
@@ -90,10 +89,27 @@ export default [
 
         ]
     },
-    // {
-    //     name: "Swarm",
-    //     thumbnailPath: "/projects/swarm/thumbnail.png",
-    // },
+    {
+        name: "Swarm",
+        thumbnailPath: "/projects/swarm/thumbnail.png",
+        githubLink: "https://github.com/michlam/swarm",
+        desc1: "You are a knight and have to fight off hendless hordes of goblins, mages, and golems. Defeat enemies, level up, and unlock elemental skills and abilities!",
+        desc2: "Based on similar games such as the Vampire Survivors and Hades, this experience helped me learn Godot and GDScript. Head to the releases section in the Github repository to check it out!",
+        skills: [
+            "Godot",
+            "GDScript",
+            "Action",
+            "RPG",
+            "2-Dimensional",
+            "Game Development",
+        ],
+        images: [
+            "/projects/swarm/1.png",
+            "/projects/swarm/2.png",
+            "/projects/swarm/3.png",
+            "/projects/swarm/4.png",
+        ]
+    },
     // {
     //     name: "OpenALPR Image Processing Pipeline",
     //     thumbnailPath: "/projects/openalpr/thumbnail.png",
