@@ -13,11 +13,11 @@ export default [
     },
     {
         name: "Exam Day",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/exam-day/thumbnail.png",
     },
     {
         name: "Swarm",
-        thumbnailPath: "/projects/genshin-loadouts/Landing.png",
+        thumbnailPath: "/projects/swarm/thumbnail.png",
     },
     {
         name: "OpenALPR Image Processing Pipeline",
