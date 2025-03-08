@@ -20,7 +20,7 @@ export default function ProjectFocus(props) {
     )
 
     const carousel = (
-        <Carousel width="40%">
+        <Carousel width="55%" dynamicHeight>
             <div>
                 <img src="/public/projects/genshin-loadouts/Landing.png" />
             </div>
