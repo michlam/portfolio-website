@@ -25,7 +25,7 @@ export default function Projects() {
 
     return (
         <>
-            <ProjectFocus open={open} setOpen={setOpen} />
+            <ProjectFocus open={open} setOpen={setOpen} focus={focus}/>
             <section id="projects" className="projects">
                 <h1>Projects</h1>
                 <div className="projects-container">
