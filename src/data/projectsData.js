@@ -182,10 +182,28 @@ export default [
             "/projects/ubcnotes/2.png",
         ]
     },
-    // {
-    //     name: "COVID Vaccine Registration Simulator",
-    //     thumbnailPath: "/projects/covid/thumbnail.png",
-    // },
+    {
+        name: "COVID Vaccine Registration Simulator",
+        thumbnailPath: "/projects/covid/thumbnail.png",
+
+        githubLink: "https://github.com/michlam/Covid-Vaccine-Database",
+        desc1: "For my Relational Databases capstone project, our group of three created a web application that simulates vaccine registration as both a customer and an employee. Register for appointments and sign up for shifts depending on your user.",
+        desc2: "Our database used MySQL server to represent our Entity Relationship Diagram. while frontend was built with PHP and JavaScript. My focus was on the Entity Relationship design and building queries to allow our frontend to interface with our data.",
+        skills: [
+            "SQL",
+            "MySQL Server",
+            "PHP",
+            "CSS",
+            "JavaScript",
+            "Databases",
+            "Entity-Relationship Diagram",
+        ],
+        images: [
+            "/projects/covid/1.png",
+            "/projects/covid/2.png",
+            "/projects/covid/3.png",
+        ]
+    },
     // {
     //     name: "Calendar Task Tracker",
     //     thumbnailPath: "/projects/calendar/thumbnail.png",
