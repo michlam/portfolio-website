@@ -43,14 +43,18 @@ export default function ProjectFocus(props) {
                         null
                     }
 
-                    <Link href={props.focus ? props.focus.githubLink : null} target="_blank" className="project-github-link" sx={{
-                        color: "#bdbdbe",
-                        textDecoration: "none",
-                        marginTop: "10px",
-                    }}>
-                        <img src={LinkIcon} />
-                        <p>View in GitHub</p>
-                    </Link>
+                    {
+                        props.focus && props.focus.githubLink ?
+                        <Link href={props.focus.githubLink} target="_blank" className="project-github-link" sx={{
+                            color: "#bdbdbe",
+                            textDecoration: "none",
+                            marginTop: "10px",
+                        }}>
+                            <img src={LinkIcon} />
+                            <p>View in GitHub</p>
+                        </Link> :
+                        null
+                    }
                 </div>
 
                 <div className="dialog-bottom">

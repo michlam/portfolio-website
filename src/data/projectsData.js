@@ -204,12 +204,46 @@ export default [
             "/projects/covid/3.png",
         ]
     },
-    // {
-    //     name: "Calendar Task Tracker",
-    //     thumbnailPath: "/projects/calendar/thumbnail.png",
-    // },
-    // {
-    //     name: "Youth Financial Tracker",
-    //     thumbnailPath: "/projects/goa/thumbnail.png",
-    // }
+    {
+        name: "Calendar Task Tracker",
+        thumbnailPath: "/projects/calendar/thumbnail.png",
+
+        githubLink: "https://github.com/michlam/Calendar-Task-Tracker",
+        desc1: "For my Software Construction course, I built a daily task tracking application that allows users to record their tasks for the day, view past and future dates, and set reminder for themselves. Users can also save and load their data using a JSON for data persistence.",
+        desc2: "The application was built in Java in several phases. I started with building a console-only program to ensure core functionality, then used the Swing library for building the GUI. Testing was accomplished with the JUnit framework.",
+        skills: [
+            "Java",
+            "Swing",
+            "JUnit",
+            "Json",
+            "Software Construction",
+            "Data Persistence",
+        ],
+        images: [
+            "/projects/calendar/1.png",
+            "/projects/calendar/2.png",
+            "/projects/calendar/3.png",
+            "/projects/calendar/4.png",
+        ]
+    },
+    {
+        name: "Youth Financial Tracker",
+        thumbnailPath: "/projects/goa/thumbnail.png",
+
+        desc1: "Record your daily expenses, track your spending habits, and work towards your financial goals in this iOS application. In a group of six, this was our submission for the Game of Apps program in 2019, and won first place at the provincial championships.",
+        desc2: "In my senior year of high school, I participated in the Game of Apps program, which is an app design and development course/competition. My focus was on designing the user interfaces and user experience of the application, mainly using Figma.",
+        skills: [
+            "Figma",
+            "iOS",
+            "Swing",
+            "Design",
+            "Game of Apps",
+        ],
+        images: [
+            "/projects/goa/1.png",
+            "/projects/goa/2.png",
+            "/projects/goa/3.png",
+            "/projects/goa/4.png",
+        ]
+    }
 ]
