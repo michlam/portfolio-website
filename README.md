@@ -9,3 +9,4 @@
 - <a href="https://www.flaticon.com/free-icons/down-arrow" title="down arrow icons">Down arrow icons created by th studio - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/location" title="location icons">Location icons created by IconMarketPK - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/external-link" title="external link icons">External link icons created by Fathema Khanom - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/up-arrow" title="up arrow icons">Up arrow icons created by Roundicons Premium - Flaticon</a>

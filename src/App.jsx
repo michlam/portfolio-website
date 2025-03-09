@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import UpArrow from './components/UpArrow';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Experience/>
       <Projects/>
       <Contact />
+      <UpArrow />
     </>
   )
 }

@@ -1,0 +1,22 @@
+#root {
+    --rich-black: #071e22;
+    --dark-rich-black: #05181b;
+    --anti-flash-white: #f3f3f4;
+    --french-grey: #bdbdbe;
+
+    --light-blue: #718af4;
+}
+
+.up-arrow {
+    position: fixed;
+    z-index: 1;
+    background-color: var(--anti-flash-white);
+    padding: 10px;
+    bottom: 50px;
+    right: 50px;
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
