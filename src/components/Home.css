@@ -26,7 +26,7 @@ section.home {
 
 .home-content > h1 {
     margin: 0;
-    font-size: 9.5rem;
+    font-size: 9.5dvw;
     font-weight: 600;
     letter-spacing: 2%;
     line-height: 97%;
@@ -36,7 +36,7 @@ section.home {
 
 .home-content > h2 {
     margin: 8px 0px 0px 0px;
-    font-size: 1.3rem;
+    font-size: 1.3dvw;
     font-weight: 400;
 }
 
@@ -65,4 +65,10 @@ section.home {
 
 .linkedIn-icon {
     border-radius: 20%;
+}
+
+@media (max-width: 768px) {
+    .home-content > h2 {
+        font-size: 0.65rem;
+    }
 }
