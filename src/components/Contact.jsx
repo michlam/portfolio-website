@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <footer id="contact" className="contact">
             <div className="connect-email">
-                <h2>LET'S CONNECT!</h2>
+                <h2>EMAIL</h2>
                 <h1>lam.michael.81201@gmail.com</h1>
             </div>
 
