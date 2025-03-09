@@ -10,8 +10,8 @@ export default function Contact() {
 
             <div className="connect-links">
                 <h4>CONNECT</h4>
-                <a><p>LinkedIn</p></a>
-                <a><p>GitHub</p></a>
+                <a href="https://www.linkedin.com/in/michlam812/" target="_blank"><p>LinkedIn</p></a>
+                <a href="https://github.com/michlam" target="_blank"><p>GitHub</p></a>
             </div>
         </footer>
     )
