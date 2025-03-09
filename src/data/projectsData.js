@@ -161,10 +161,27 @@ export default [
             "/projects/dungeons/5.png",
         ]
     },
-    // {
-    //     name: "UBC Notes",
-    //     thumbnailPath: "/projects/ubcnotes/thumbnail.png",
-    // },
+    {
+        name: "UBC Notes",
+        thumbnailPath: "/projects/ubcnotes/thumbnail.png",
+
+        githubLink: "https://github.com/ronalldchan/UBC-Notes",
+        desc1: "View and upload course notes based on year, course, and section. Our goal was to help students get access to learning materials even if they miss class due to illness or any other reason.",
+        desc2: "Built in a group of four, this is our submission for HackCamp 2023. This was my first hackathon, where I had my first exposure to React and Firebase. My focus was mainly with setting up the frontend and displaying the data.",
+        skills: [
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "React",
+            "Firebase",
+            "Hackathon",
+
+        ],
+        images: [
+            "/projects/ubcnotes/1.png",
+            "/projects/ubcnotes/2.png",
+        ]
+    },
     // {
     //     name: "COVID Vaccine Registration Simulator",
     //     thumbnailPath: "/projects/covid/thumbnail.png",
