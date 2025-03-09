@@ -14,7 +14,7 @@ export default function Projects() {
 
     const projectsElements = projectsData.map((project) => {
         return (
-            <div className="projects-item" key={project.name}>
+            <div className="projects-item" key={project.name} data-aos="zoom-in-up" data-aos-duration="400">
                 <div className="projects-image-container" onClick={() => handleOpenFocus(project.name)}>
                     <img src={project.thumbnailPath} />
                 </div>
@@ -27,7 +27,7 @@ export default function Projects() {
         <>
             <ProjectFocus open={open} setOpen={setOpen} focus={focus}/>
             <section id="projects" className="projects">
-                <h1>Projects</h1>
+                <h1 data-aos="fade" data-aos-duration="2000">Projects</h1>
                 <div className="projects-container">
                     {projectsElements}
                 </div>

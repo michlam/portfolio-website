@@ -61,7 +61,7 @@ export default function Experience(props) {
 
     return (
         <section id="experience" className="experience">
-            <h1>Experience</h1>
+            <h1 data-aos="fade" data-aos-duration="2000">Experience</h1>
             <div className="experience-elements">
                 {experienceElements}
             </div>
