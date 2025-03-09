@@ -3,8 +3,11 @@ import PinIcon from "../assets/PinIcon.png";
 import LinkIcon from "../assets/Link_Icon.png";
 import experience from "../data/experienceData.js";
 import DownArrow from "./DownArrow";
+import Aos from "aos";
+import { useEffect } from "react";
 
 export default function Experience(props) {
+
     const experienceElements = experience.map((exp) => {
         const responsibiliesElements = exp.responsibilities.map((resp) => {
             return (
@@ -23,7 +26,7 @@ export default function Experience(props) {
         }
 
         return (
-            <div className="experience-content" key={exp.role}>
+            <div className="experience-content" key={exp.role} data-aos="fade-up">
                 <details name="work">
                     <summary>
                         <div className="work-date">

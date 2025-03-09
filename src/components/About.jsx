@@ -1,10 +1,12 @@
+import { useEffect } from "react";
 import "./About.css";
 import DownArrow from "./DownArrow";
 
 export default function About(props) {
+
     return (
         <section id="about" className="about">
-            <div className="about-top">
+            <div className="about-top" data-aos="fade-up">
                 <h1>Hello there! 👋</h1>
                 <h3>
                     I'm Michael, an aspiring software engineer and tester, as well as a hobbyist game developer.
@@ -12,7 +14,7 @@ export default function About(props) {
                 </h3>
             </div>
 
-            <div className="about-bottom">
+            <div className="about-bottom" data-aos="fade" data-aos-duration="2000">
                 <div className="about-bottom-item about-swd">
                     <h2>Software Development</h2>
                     <hr />
