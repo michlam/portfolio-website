@@ -80,3 +80,32 @@ footer.contact {
         }
     }
 }
+
+@media (max-width: 768px) {
+    .connect-email {
+        & > h2 {
+            margin: 80px 0px 0px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--dark-french-grey);
+        }
+        
+        & > h1 {
+            margin: 0px 0px 80px;
+            font-size: 1.1rem;
+            font-weight: 500;    
+        }
+    }
+    
+    .connect-links {
+        padding: 50px 40px 220px;
+    
+        & > h4 {
+            font-size: 0.8rem;
+        }
+    
+        & > a {
+            font-size: 0.75rem;
+        }
+    }
+}
