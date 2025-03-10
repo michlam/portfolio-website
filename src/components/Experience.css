@@ -196,3 +196,161 @@ section.experience > h1 {
         font-weight: 550;
     }
 }
+
+@media (max-width: 1180px) {    
+    .experience-content {
+        width: 730px;
+    }
+
+
+    .work-date {
+        & > h4 {
+            font-size: 0.7rem;
+        }
+
+        & > h2 {
+            font-size: 1.4rem;
+        }   
+    }
+
+    .work-description {
+        & > h2 {
+            font-size: 1rem;
+        }
+    }
+
+    .work-location {
+        & > img {
+            width: 15px;
+            height: 15px;
+        }
+
+        & > h4 {
+            font-size: 0.9rem;
+        }
+    }
+
+    .work-content {
+        background-position: 380px 130px;
+        background-size: 350px;
+
+        & > p {
+            font-size: 0.9rem;
+        }
+
+        & > ul > li {
+            font-size: 0.8rem;
+        }
+    }
+
+    .work-link {
+        & > img {
+            width: 15px;
+            height: 15px;
+            opacity: 70%;
+        }
+
+        & > h4 {
+            font-size: 0.9rem;
+        }
+    }
+
+    .work-skills {
+        & > h4 {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) { 
+    section.experience > h1 {
+        font-size: 2rem;
+    }
+
+    .experience-content {
+        width: 345px;
+    }
+
+    .experience-content > details > summary {
+        padding: 20px 25px;
+        &::after {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .work-date {
+        & > h4 {
+            font-size: 0.5rem;
+        }
+
+        & > h2 {
+            font-size: 1rem;
+        }   
+    }
+
+    .work-description {
+        & > h2 {
+            font-size: 0.65rem;
+        }
+    }
+
+    .work-location {
+        & > img {
+            width: 10px;
+            height: 10px;
+        }
+
+        & > h4 {
+            font-size: 0.6rem;
+        }
+    }
+
+    .work-content {
+        background-position: 170px 300px;
+        background-size: 180px;
+        padding: 20px 25px;
+
+        & > p {
+            font-size: 0.71rem;
+        }
+
+        & > ul > li {
+            font-size: 0.65rem;
+        }
+    }
+
+    .work-link {
+        & > img {
+            width: 10px;
+            height: 10px;
+            opacity: 70%;
+        }
+
+        & > h4 {
+            font-size: 0.65rem;
+        }
+    }
+
+    .work-skills {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > h4 {
+            font-size: 0.6rem;
+            font-weight: 300;
+        }
+    }
+}
