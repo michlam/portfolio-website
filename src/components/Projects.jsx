@@ -14,7 +14,7 @@ export default function Projects() {
 
     const projectsElements = projectsData.map((project) => {
         return (
-            <div className="projects-item" key={project.name} data-aos="zoom-in-up" data-aos-duration="400">
+            <div className="projects-item" key={project.name} data-aos="zoom-in-up" data-aos-duration="400" data-aos-offset="50">
                 <div className="projects-image-container" onClick={() => handleOpenFocus(project.name)}>
                     <img src={project.thumbnailPath} />
                 </div>
