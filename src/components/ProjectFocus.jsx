@@ -30,31 +30,33 @@ export default function ProjectFocus(props) {
             }}>
                 <div className="dialog-top">
                     <h1>{props.focus ? props.focus.name : null}</h1>
-                    {
-                        props.focus && props.focus.demoLink ? 
-                        <Link href={props.focus.demoLink} target="_blank" className="project-github-link" sx={{
-                            color: "#bdbdbe",
-                            textDecoration: "none",
-                            marginTop: "10px",
-                        }}>
-                            <img src={LinkIcon} />
-                            <p>View Demo</p>
-                        </Link> :
-                        null
-                    }
+                    <div className="dialog-top-right">
+                        {
+                            props.focus && props.focus.demoLink ? 
+                            <Link href={props.focus.demoLink} target="_blank" className="project-github-link" sx={{
+                                color: "#bdbdbe",
+                                textDecoration: "none",
+                                marginTop: "10px",
+                            }}>
+                                <img src={LinkIcon} />
+                                <p>Demo</p>
+                            </Link> :
+                            null
+                        }
 
-                    {
-                        props.focus && props.focus.githubLink ?
-                        <Link href={props.focus.githubLink} target="_blank" className="project-github-link" sx={{
-                            color: "#bdbdbe",
-                            textDecoration: "none",
-                            marginTop: "10px",
-                        }}>
-                            <img src={LinkIcon} />
-                            <p>View in GitHub</p>
-                        </Link> :
-                        null
-                    }
+                        {
+                            props.focus && props.focus.githubLink ?
+                            <Link href={props.focus.githubLink} target="_blank" className="project-github-link" sx={{
+                                color: "#bdbdbe",
+                                textDecoration: "none",
+                                marginTop: "10px",
+                            }}>
+                                <img src={LinkIcon} />
+                                <p>GitHub</p>
+                            </Link> :
+                            null
+                        }
+                    </div>
                 </div>
 
                 <div className="dialog-bottom">
@@ -68,7 +70,7 @@ export default function ProjectFocus(props) {
                     </div>
 
                     <div className="dialog-right">
-                        <Carousel width="95%" dynamicHeight>
+                        <Carousel width="95%" dynamicHeight className="carousel">
                             {carouselImages}
                         </Carousel>
                     </div>
