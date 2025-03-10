@@ -14,7 +14,7 @@ export default function About(props) {
                 </h3>
             </div>
 
-            <div className="about-bottom" data-aos="fade" data-aos-duration="2000">
+            <div className="about-bottom" data-aos="fade" data-aos-duration="2500" data-aos-offset="-200" >
                 <div className="about-bottom-item about-swd">
                     <h2>Software Development</h2>
                     <hr />
