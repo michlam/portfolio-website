@@ -1,5 +1,15 @@
 # portfolio-website
- A portfolio website highlighting my experience and education
+A portfolio website to highlight my experiences, projects, and education.
+
+### Technologies
+- HTML/CSS/JavaScript
+- React
+- react-responsive-carousel
+- Animate on scroll (AOS)
+- Deployed with Netlify
+
+### Links
+- https://michlam-personal-website.netlify.app/
 
 ### Attributions
 - Head icon from <a target="_blank" href="https://coolshap.es/">CoolShap.es</a>
