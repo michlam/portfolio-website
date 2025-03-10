@@ -159,7 +159,6 @@ section.experience > h1 {
 
 .work-link {
     display: flex;
-    width: 470px;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
@@ -263,17 +262,6 @@ section.experience > h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) { 
     section.experience > h1 {
         font-size: 2rem;
@@ -285,10 +273,6 @@ section.experience > h1 {
 
     .experience-content > details > summary {
         padding: 20px 25px;
-        &::after {
-            width: 25px;
-            height: 25px;
-        }
     }
 
     .work-date {
@@ -340,7 +324,7 @@ section.experience > h1 {
         }
 
         & > h4 {
-            font-size: 0.65rem;
+            font-size: 0.55rem;
         }
     }
 

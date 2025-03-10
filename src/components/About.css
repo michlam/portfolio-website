@@ -158,6 +158,29 @@ section.about {
         font-size: 0.9rem;
     }
 
+    .about-swd {
+        > hr {
+            width: 180px;
+            left: -30px;
+        }
+    }
+    
+    .about-qa {
+        > hr {
+            background-color: var(--orange-gold);
+    
+            width: 180px;
+            left: -30px;
+        }
+    }
+    
+    .about-edu {
+        > hr {
+            width: 100px;
+            left: -70px;
+        }
+    }
+
 }
 
 @media (max-width: 768px) {
