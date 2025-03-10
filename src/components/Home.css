@@ -71,4 +71,8 @@ section.home {
     .home-content > h2 {
         font-size: 0.65rem;
     }
+
+    .socials > a > img {
+        width: 20px;
+    }
 }
