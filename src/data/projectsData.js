@@ -93,7 +93,7 @@ export default [
         name: "Swarm",
         thumbnailPath: "/projects/swarm/thumbnail.png",
         githubLink: "https://github.com/michlam/swarm",
-        desc1: "You are a knight and have to fight off hendless hordes of goblins, mages, and golems. Defeat enemies, level up, and unlock elemental skills and abilities!",
+        desc1: "You are a knight and have to fight off endless hordes of goblins, mages, and golems. Defeat enemies, level up, and unlock elemental skills and abilities!",
         desc2: "Based on similar games such as the Vampire Survivors and Hades, this experience helped me learn Godot and GDScript. Head to the releases section in the Github repository to check it out!",
         skills: [
             "Godot",
