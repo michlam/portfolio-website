@@ -9,6 +9,7 @@ A portfolio website to highlight my experiences, projects, and education.
 - Deployed with Netlify
 
 ### Links
+- https://michaellam.ca/
 - https://michlam-personal-website.netlify.app/
 
 ### Attributions
